@@ -1,0 +1,15 @@
+{
+    "name": "@react-app/routes",
+    "version": "1.0.0",
+    "private": true,
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "jest"
+    },
+    "peerDependencies": {
+        "react": "*",
+        "react-dom": "*",
+        "react-router-dom": "*",
+        "react-test-renderer": "*"
+    }
+}
