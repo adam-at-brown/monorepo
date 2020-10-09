@@ -1,5 +1,5 @@
 {
-    "name": "@shared/theme",
+    "name": "@adam-at-brown/theme",
     "version": "1.0.0",
     "main": "src/index",
     "scripts": {
@@ -10,5 +10,8 @@
         "react": "*",
         "react-test-renderer": "*"
     },
-    "devDependencies": {}
+    "dependencies": {
+        "@adam-at-brown/logger": "^1.0.0",
+        "@adam-at-brown/validatior": "^1.0.0"
+    }
 }

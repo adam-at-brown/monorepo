@@ -1,0 +1,9 @@
+{
+    "name": "@adam-at-brown/validatior",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@adam-at-brown/logger": "^1.0.0"
+    }
+}

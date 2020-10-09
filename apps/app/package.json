@@ -1,7 +1,8 @@
 {
-    "name": "@react-app/app",
+    "name": "@adam-at-brown/app",
     "version": "1.0.0",
     "private": true,
+    "proxy": "http://localhost:8080",
     "scripts": {
         "build": "node scripts/build.js",
         "start": "node scripts/start.js",
@@ -66,8 +67,10 @@
         "webpack-manifest-plugin": "^2.2.0"
     },
     "dependencies": {
-        "@react-app/routes": "*",
-        "@shared/theme": "*",
+        "@adam-at-brown/logger": "^1.0.0",
+        "@adam-at-brown/routes": "*",
+        "@adam-at-brown/theme": "*",
+        "@adam-at-brown/validatior": "^1.0.0",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-router-dom": "^5.2.0"
